@@ -7,14 +7,18 @@ header{
 }
 
 @media (max-width: 465px){  /*caso Moviles*/
+    header{
+        flex-direction: column;
+    }
     /*Especificidad: 002*/
     header h1{
       /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
-      font-size: 0.4em;
+      font-size: 0.1em;
     }
     /*Especificidad: 002*/
     header nav{
         flex-wrap: wrap;
+        gap: 1em;
     }
   }
   
