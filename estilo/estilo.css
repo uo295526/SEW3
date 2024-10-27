@@ -71,7 +71,7 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
   /*Especificidad: 001*/
   h1{
     /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
-    font-size: 0.3em;
+    font-size: 0.4em;
   }
   /*Especificidad: 012*/
   body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
@@ -184,10 +184,7 @@ table td{
   text-align: center;
   padding: 0.2em;
 }
-/*Especificidad: 002*/ 
-table caption{
-  font-size: 1.2em;
-}
+
 /*Especificidad: 001*/ 
 img{
   width:100%;
