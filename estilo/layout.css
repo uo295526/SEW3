@@ -5,3 +5,27 @@ header{
     align-items: center;  /* Centra verticalmente los elementos */
     padding: 1em;
 }
+
+@media (max-width: 465px){  /*caso Moviles*/
+    /*Especificidad: 002*/
+    header h1{
+      /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
+      font-size: 0.4em;
+    }
+    /*Especificidad: 002*/
+    header nav{
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 799px){  /*caso Tablets*/
+    /*Especificidad: 002*/
+    header h1{
+      /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
+      font-size: 0.6em; 
+    }
+    /*Especificidad: 002*/
+    header nav{
+        flex-wrap: wrap;
+    }
+  }

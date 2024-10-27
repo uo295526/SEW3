@@ -68,31 +68,13 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
 }
 
 @media (max-width: 465px){  /*caso Moviles*/
-  /*Especificidad: 001*/
-  header{
-    /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
-    font-size: 0.4em;
-  }
+  
   /*Especificidad: 012*/
   body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
     display: none; /*esto para que este p (las migas) no salga en moviles*/
   }
 }
 
-@media (max-width: 799px){  /*caso Tablets*/
-  /*Especificidad: 001*/
-  header{
-    /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
-    font-size: 0.6em; 
-  }
-}
-
-@media (min-width: 800px){
-  /*Especificidad: 001*/
-  header{
-    font-size: 1.8em;
-  }
-}
 /*Especificidad: 001*/ 
 h2{
   background-color: #15640C;
@@ -159,9 +141,6 @@ dt{ /*el termino (no la definicion)*/
 }
 /*Especificidad: 001*/ 
 table {
-  width:100%;
-  height:auto;
-
   margin: 0.5em; /*padding superior e inferior*/  
   border-collapse: collapse;
 }
