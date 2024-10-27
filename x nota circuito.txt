@@ -1,0 +1,9 @@
+15 ZANDVOORT PAÍSES BAJOS ZANDVOORT
+
+en el dtd de momento modelamos TODO (fechas, horas, ...) en strings
+
+navegador opera: Herramienta para guardar svg como pdf
+
+todos los archivos (incluso multimedia) en carpeta xml. (esto seria asi de momento hasta llegar a java)
+
+para obtener coordenadas de los tramos del circuito (longitud, altitud, etc) google earth/ maps (cuidado con el orden en el que nos lo dan)
