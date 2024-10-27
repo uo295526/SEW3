@@ -71,7 +71,7 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
   /*Especificidad: 001*/
   h1{
     /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
-    font-size: 0.1em;
+    font-size: 0.3em;
   }
   /*Especificidad: 012*/
   body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
@@ -159,6 +159,9 @@ dt{ /*el termino (no la definicion)*/
 }
 /*Especificidad: 001*/ 
 table {
+  width:100%;
+  height:auto;
+
   margin: 0.5em; /*padding superior e inferior*/  
   border-collapse: collapse;
 }
