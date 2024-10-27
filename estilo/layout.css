@@ -1,8 +1,36 @@
-
+/*Especificidad: 001*/ 
 header{
     display: flex; /* Flexbox, ayuda a la adaptabilidad */
     justify-content: space-between; /* Espacio entre los elementos */
     align-items: center;  /* Centra verticalmente los elementos */
     padding: 1em; /* Espaciado interno */
 }
+/*Especificidad: 001*/ 
+nav{
+    display: flex;
+    gap: 0.5em;
+}
 
+@media (max-width: 465px){  /*caso Moviles*/
+    /*Especificidad: 001*/
+    header{
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    /*Especificidad: 001*/ 
+    nav{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 799px){  /*caso Tablets*/
+    /*Especificidad: 001*/
+    header{
+      flex-direction: column;
+      gap: 0.75em;
+    }
+    /*Especificidad: 001*/ 
+    nav{
+        flex-wrap: wrap;
+    }
+}

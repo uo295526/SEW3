@@ -23,19 +23,18 @@ body {
     font-family: Arial,Tahoma,sans-serif; /*sin espacio entre ellas*/
     font-size: 1.05em;
 }
-
+/*Especificidad: 001*/ 
 main{
   /*El color de primer plano es heredado de body*/
   background-color: #BEBEBE;
   padding: 0.2em
 }
-
+/*Especificidad: 001*/ 
 header{
   /*El color de primer plano es heredado de body*/
   background-color: #14480F;
 }
-/*no hace falta color:#ffffff, pues al ser enlaces se los tengo que modificar en personal*/
-
+/*Especificidad: 002*/ 
 aside dl{
   padding: 0.8em
 }
@@ -54,7 +53,7 @@ header nav a{  /*asi, a todos los a del nav en header les quito la decoracion*/
   text-decoration: none;
   font-size: 1.25em;
 }
-
+/*Especificidad: 013*/ 
 header nav a.active{ /*asi modificamos el a activo del nav*/
   /*El color de fondo es heredado de header*/
   color: #FFFCD6;
@@ -71,7 +70,8 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
 @media (max-width: 465px){  /*caso Moviles*/
   /*Especificidad: 001*/
   h1{
-    font-size: 1.3em;
+    /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
+    font-size: 0.2em;
   }
   /*Especificidad: 012*/
   body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
@@ -82,7 +82,8 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
 @media (max-width: 799px){  /*caso Tablets*/
   /*Especificidad: 001*/
   h1{
-    font-size: 1.5em; /*ADVERTENCIA:Se redefine font-size*/
+    /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
+    font-size: 0.6em; 
   }
 }
 
@@ -92,7 +93,7 @@ body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del 
     font-size: 1.8em;
   }
 }
-
+/*Especificidad: 001*/ 
 h2{
   background-color: #15640C;
   color:#ffffff;
@@ -101,13 +102,13 @@ h2{
   border-width: 0.15em;
   border-style: solid;
 }
-
+/*Especificidad: 001*/ 
 h3{
   background-color: #15640C;
   color:#ffffff;
   padding: 0.3em;
 }
-
+/*Especificidad: 001*/ 
 h4{
   /*El color de primer plano es heredado de body*/
   background-color: #6AA63F;
@@ -158,30 +159,31 @@ dt{ /*el termino (no la definicion)*/
 }
 /*Especificidad: 001*/ 
 table {
-  width: 100%; /*pues esto beneficia la adaptabilidad*/
   margin: 0.5em; /*padding superior e inferior*/  
   border-collapse: collapse;
 }
-/*Especificidad: 001*/ 
+/*Especificidad: 002*/ 
 table th{
-  /*El color de fondo es heredado de body*/
-  border: 0.12em;  /*para que queden celdas. Poner aqui y en TD*/
+  /*El color de primer plano es heredado de body*/
+  border-width: 0.12em;  /*para que queden celdas. Poner aqui y en TD*/
   border-color: black;
   border-style: solid;
-  background-color: #107910; /*color de la celda*/ /*ADVERTENCIA:Hay color FONDO pero no primer plano*/
+  background-color: #107910; /*color de la celda*/
+  padding: 0.2em;
 }
-
-table caption{
-  font-size: 1.2em;
-}
-/*Especificidad: 001*/ 
-td{
-  /*El color de fondo es heredado de body*/
-  border: 0.1em;  /*para que queden celdas. Poner aqui y en TD*/
+/*Especificidad: 002*/ 
+table td{
+  /*El color de primer plano es heredado de body*/
+  border: 0.12em;  /*para que queden celdas. Poner aqui y en TD*/
   border-color: black;
   border-style: solid;
   background-color: #c3d3c3; /*ADVERTENCIA:Hay color FONDO pero no primer plano*/
   text-align: center;
+  padding: 0.2em;
+}
+/*Especificidad: 002*/ 
+table caption{
+  font-size: 1.2em;
 }
 /*Especificidad: 001*/ 
 img{
