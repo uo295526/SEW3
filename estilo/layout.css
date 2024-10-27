@@ -11,7 +11,7 @@ header{
         flex-direction: column;
     }
     /*Especificidad: 002*/
-    header h1 a{
+    header h1{
       /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
       font-size: 0.1em;
     }
@@ -24,7 +24,7 @@ header{
   
   @media (max-width: 799px){  /*caso Tablets*/
     /*Especificidad: 002*/
-    header h1 a{
+    header h1{
       /*ADVERTENCIA:Se redefine font-size para ajustar al dispositivo*/
       font-size: 0.6em; 
     }
