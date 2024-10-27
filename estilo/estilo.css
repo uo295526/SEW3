@@ -1,0 +1,198 @@
+/* Colores a usar: 
+000000 - negro (primer plano body)
+808080 - gris (para fondo body)
+BEBEBE - gris mas claro
+B1D8B7 - verde muy claro
+94C973 - verde neutro
+61983A - verde fuerte
+0B600B - verde oscuro
+
+lista verdes validos de fondo:
+0F6407
+0B600B
+15640C
+093E04
+14480F
+
+6AA63F - con letra negra
+*/
+/*Especificidad: 001*/  
+body {
+    background-color: #808080;
+    color: #000000; /*color elementos primer plano (texto)*/
+    font-family: Arial,Tahoma,sans-serif; /*sin espacio entre ellas*/
+    font-size: 1.05em;
+}
+
+main{
+  /*El color de primer plano es heredado de body*/
+  background-color: #BEBEBE;
+  padding: 0.2em
+}
+
+header{
+  /*El color de primer plano es heredado de body*/
+  background-color: #14480F;
+}
+/*no hace falta color:#ffffff, pues al ser enlaces se los tengo que modificar en personal*/
+
+aside dl{
+  padding: 0.8em
+}
+
+/*Especificidad: 003*/ /*Para mirar eso, selectionar el Selector y poner encima el raton*/
+header h1 a{
+  /*El color de fondo es heredado de header*/
+  color:#ffffff;  /*esto lo ponemos asi pues al ser enlace hereda el color morado*/ /*ADVERTENCIA:Hay color primer plano pero no de fondo*/
+  text-decoration: none;  /*le quito el subrayado a F1DESKTOP*/
+  font-size: 1.8em;
+}
+/*Especificidad: 003*/ 
+header nav a{  /*asi, a todos los a del nav en header les quito la decoracion*/
+  /*El color de fondo es heredado de header*/
+  color:#ffffff;  /*esto lo ponemos asi pues al ser enlace hereda el color morado*/ /*ADVERTENCIA:Hay color primer plano pero no de fondo*/
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+header nav a.active{ /*asi modificamos el a activo del nav*/
+  /*El color de fondo es heredado de header*/
+  color: #FFFCD6;
+  font-weight: bold;  
+  border-bottom: 2px solid #FFFCD6; /* Línea inferior */
+  border-top: 2px solid #FFFCD6; /* línea superior */
+}
+
+/*Especificidad: 012*/
+body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
+  font-size: 0.85em;
+}
+
+@media (max-width: 465px){  /*caso Moviles*/
+  /*Especificidad: 001*/
+  h1{
+    font-size: 1.3em;
+  }
+  /*Especificidad: 012*/
+  body > p:first-of-type{  /*SELECTOR ESPECIFICO: cambia el primero de tipo p del body (EN ESTE CASO, LAS MIGAS)*/
+    display: none; /*esto para que este p (las migas) no salga en moviles*/
+  }
+}
+
+@media (max-width: 799px){  /*caso Tablets*/
+  /*Especificidad: 001*/
+  h1{
+    font-size: 1.5em; /*ADVERTENCIA:Se redefine font-size*/
+  }
+}
+
+@media (min-width: 800px){
+  /*Especificidad: 001*/
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+h2{
+  background-color: #15640C;
+  color:#ffffff;
+  padding: 0.5em;
+  border-color: #000000;
+  border-width: 0.15em;
+  border-style: solid;
+}
+
+h3{
+  background-color: #15640C;
+  color:#ffffff;
+  padding: 0.3em;
+}
+
+h4{
+  /*El color de primer plano es heredado de body*/
+  background-color: #6AA63F;
+  padding: 0.2em;
+}
+
+/*Especificidad: 012*/ 
+main a:link{ /*Pseudoclase->:link = Aun no visitado*/
+  /*El color de fondo es heredado de main*/
+  color :#000000; /*ADVERTENCIA:Hay color primer plano pero no fondo*/
+  font-style: italic;
+}
+/*Especificidad: 012*/ 
+main a:visited{ /*Pseudoclase->:link = Aun no visitado*/
+  /*El color de fondo es heredado de main*/
+  color :#000000; /*ADVERTENCIA:Hay color primer plano pero no fondo*/
+}
+/*Especificidad: 022*/ 
+main a:link:hover{ /*Pseudoclase->:hover = Cuando el cursor este encima suya*/
+  /*El color de fondo es heredado de main*/
+  color :#3E067F; /*ADVERTENCIA:Hay color primer plano pero no fondo*/
+}
+/*Especificidad: 022*/ 
+main a:visited:hover{ /*Pseudoclase->:hover = Cuando el cursor este encima suya*/
+  /*El color de fondo es heredado de main*/
+  color :#3E067F; /*ADVERTENCIA:Hay color primer plano pero no fondo*/
+}
+/*Especificidad: 002*/ 
+ul li{  /*Modificamos los elementos de lista ul NO ordenada*/
+  list-style-type: square;  /*uso cuadrados como indicador de cada elemento*/
+}
+/*Especificidad: 002*/ 
+ol li{  /*Modificamos los elementos de lista ol ordenada*/
+  list-style-type: upper-roman;  /*en vez de numeros decimales, empleo romanos en Mayusc*/
+}
+/*Especificidad: 003*/ 
+ul ol li{  /*De la lista UL, modificamos los elementos de listas OL anidadas en la primera*/
+  font-size: 0.9em;
+}
+/*Especificidad: 003*/ 
+ul ul li{  /*De la lista UL, modificamos los elementos de otras listas UL anidadas en la primera*/
+  font-size: 0.9em;
+}
+/*Especificidad: 001*/ 
+dt{ /*el termino (no la definicion)*/
+  text-decoration: underline;
+  padding-top: 0.16em; /*dejen espacio por arriba, asi espacio cada par de termino/definicion*/
+}
+/*Especificidad: 001*/ 
+table {
+  width: 100%; /*pues esto beneficia la adaptabilidad*/
+  margin: 0.5em; /*padding superior e inferior*/  
+  border-collapse: collapse;
+}
+/*Especificidad: 001*/ 
+table th{
+  /*El color de fondo es heredado de body*/
+  border: 0.12em;  /*para que queden celdas. Poner aqui y en TD*/
+  border-color: black;
+  border-style: solid;
+  background-color: #107910; /*color de la celda*/ /*ADVERTENCIA:Hay color FONDO pero no primer plano*/
+}
+
+table caption{
+  font-size: 1.2em;
+}
+/*Especificidad: 001*/ 
+td{
+  /*El color de fondo es heredado de body*/
+  border: 0.1em;  /*para que queden celdas. Poner aqui y en TD*/
+  border-color: black;
+  border-style: solid;
+  background-color: #c3d3c3; /*ADVERTENCIA:Hay color FONDO pero no primer plano*/
+  text-align: center;
+}
+/*Especificidad: 001*/ 
+img{
+  width:100%;
+  height:auto;
+  display: block; /*lo muestra en un bloque*/
+  margin-left: auto;
+  margin-right: auto; /* Centra horizontalmente */
+}
+/*Especificidad: 001*/ 
+video{
+  width:100%;
+  height:auto;
+}

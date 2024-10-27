@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zandvoort - Coordenadas de los Tramos</name>
+    <Placemark>
+      <name>Gerlachbocht</name>
+      <description>Tarzanbocht-Gerlachbocht</description>
+      <Point>
+        <coordinates>4.54283,52.38916,16.5509214</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hugenholtzbocht </name>
+      <description>Gerlachbocht-Hugenholtzbocht</description>
+      <Point>
+        <coordinates>4.54118,52.38836,15.945032</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hunserug </name>
+      <description>Hugenholtzbocht-Hunserug</description>
+      <Point>
+        <coordinates>4.54414,52.3885,22.0771255</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rob Slotemakerbocth</name>
+      <description>Hunserug-Rob Slotemakerbocth</description>
+      <Point>
+        <coordinates>4.54635,52.388828,15.886671</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bocht 6</name>
+      <description>Rob Slotemakerbocth-Bocht 6</description>
+      <Point>
+        <coordinates>4.54924,52.38895,22.0628285</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Scheivlak</name>
+      <description>Bocht 6-Scheivlak</description>
+      <Point>
+        <coordinates>4.55270,52.3886,17.3983142</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Masterbocht</name>
+      <description>Scheivlak-Masterbocht</description>
+      <Point>
+        <coordinates>4.55117,52.38579,15.5566243</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bocht 9</name>
+      <description>Masterbocht-Bocht 9</description>
+      <Point>
+        <coordinates>4.54825,52.38651,16.2918884</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bocht 10</name>
+      <description>Bocht 9-Bocht 10</description>
+      <Point>
+        <coordinates>4.55118,52.38765,15.8426112</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hans Ernstbocht</name>
+      <description>Bocht 10-Hans Ernstbocht</description>
+      <Point>
+        <coordinates>4.54308,52.38714,15.3211318</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hans Ernstbocht</name>
+      <description>Hans Ernstbocht-Hans Ernstbocht</description>
+      <Point>
+        <coordinates>4.54226,52.38744,14.9955985</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bocht 13</name>
+      <description>Hans Ernstbocht-Bocht 13</description>
+      <Point>
+        <coordinates>4.54,52.38464,14.8534845</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arie Luyendijkbocht</name>
+      <description>Bocht 13-Arie Luyendijkbocht</description>
+      <Point>
+        <coordinates>4.53878,52.38522,20.6430024</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tarzanbocht</name>
+      <description>Arie Luyendijkbocht-Tarzanbocht</description>
+      <Point>
+        <coordinates>4.54341,52.3918,17.6806570</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+  <rect width="100%" height="100%" fill="white" />
+  <circle cx="311.8534482758889" cy="308.10055865964864" r="5" fill="red" />
+  <text x="321.8534482758889" y="308.10055865964864" font-size="12" fill="black">Gerlachbocht</text>
+  <circle cx="205.1724137930896" cy="386.31284916219363" r="5" fill="red" />
+  <text x="215.1724137930896" y="386.31284916219363" font-size="12" fill="black">Hugenholtzbocht </text>
+  <line x1="311.8534482758889" y1="308.10055865964864" x2="205.1724137930896" y2="386.31284916219363" stroke="blue" stroke-width="2"/>
+  <circle cx="396.55172413791155" cy="372.62569832403983" r="5" fill="red" />
+  <text x="406.55172413791155" y="372.62569832403983" font-size="12" fill="black">Hunserug </text>
+  <line x1="205.1724137930896" y1="386.31284916219363" x2="396.55172413791155" y2="372.62569832403983" stroke="blue" stroke-width="2"/>
+  <circle cx="539.4396551724433" cy="340.558659218302" r="5" fill="red" />
+  <text x="549.4396551724433" y="340.558659218302" font-size="12" fill="black">Rob Slotemakerbocth</text>
+  <line x1="396.55172413791155" y1="372.62569832403983" x2="539.4396551724433" y2="340.558659218302" stroke="blue" stroke-width="2"/>
+  <circle cx="726.2931034482987" cy="328.63128491618465" r="5" fill="red" />
+  <text x="736.2931034482987" y="328.63128491618465" font-size="12" fill="black">Bocht 6</text>
+  <line x1="539.4396551724433" y1="340.558659218302" x2="726.2931034482987" y2="328.63128491618465" stroke="blue" stroke-width="2"/>
+  <circle cx="950.0" cy="362.84916201156904" r="5" fill="red" />
+  <text x="960.0" y="362.84916201156904" font-size="12" fill="black">Scheivlak</text>
+  <line x1="726.2931034482987" y1="328.63128491618465" x2="950.0" y2="362.84916201156904" stroke="blue" stroke-width="2"/>
+  <circle cx="851.0775862069069" cy="637.5698324020707" r="5" fill="red" />
+  <text x="861.0775862069069" y="637.5698324020707" font-size="12" fill="black">Masterbocht</text>
+  <line x1="950.0" y1="362.84916201156904" x2="851.0775862069069" y2="637.5698324020707" stroke="blue" stroke-width="2"/>
+  <circle cx="662.2844827586536" cy="567.1787709495023" r="5" fill="red" />
+  <text x="672.2844827586536" y="567.1787709495023" font-size="12" fill="black">Bocht 9</text>
+  <line x1="851.0775862069069" y1="637.5698324020707" x2="662.2844827586536" y2="567.1787709495023" stroke="blue" stroke-width="2"/>
+  <circle cx="851.7241379310202" cy="455.72625698316745" r="5" fill="red" />
+  <text x="861.7241379310202" y="455.72625698316745" font-size="12" fill="black">Bocht 10</text>
+  <line x1="662.2844827586536" y1="567.1787709495023" x2="851.7241379310202" y2="455.72625698316745" stroke="blue" stroke-width="2"/>
+  <circle cx="328.01724137929983" cy="505.58659217850516" r="5" fill="red" />
+  <text x="338.01724137929983" y="505.58659217850516" font-size="12" fill="black">Hans Ernstbocht</text>
+  <line x1="851.7241379310202" y1="455.72625698316745" x2="328.01724137929983" y2="505.58659217850516" stroke="blue" stroke-width="2"/>
+  <circle cx="274.9999999999857" cy="476.2569832403981" r="5" fill="red" />
+  <text x="284.9999999999857" y="476.2569832403981" font-size="12" fill="black">Hans Ernstbocht</text>
+  <line x1="328.01724137929983" y1="505.58659217850516" x2="274.9999999999857" y2="476.2569832403981" stroke="blue" stroke-width="2"/>
+  <circle cx="128.87931034482915" cy="750.0" r="5" fill="red" />
+  <text x="138.87931034482915" y="750.0" font-size="12" fill="black">Bocht 13</text>
+  <line x1="274.9999999999857" y1="476.2569832403981" x2="128.87931034482915" y2="750.0" stroke="blue" stroke-width="2"/>
+  <circle cx="50.0" cy="693.2960893855854" r="5" fill="red" />
+  <text x="60.0" y="693.2960893855854" font-size="12" fill="black">Arie Luyendijkbocht</text>
+  <line x1="128.87931034482915" y1="750.0" x2="50.0" y2="693.2960893855854" stroke="blue" stroke-width="2"/>
+  <circle cx="349.3534482758482" cy="50.0" r="5" fill="red" />
+  <text x="359.3534482758482" y="50.0" font-size="12" fill="black">Tarzanbocht</text>
+  <line x1="50.0" y1="693.2960893855854" x2="349.3534482758482" y2="50.0" stroke="blue" stroke-width="2"/>
+</svg>
