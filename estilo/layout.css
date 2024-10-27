@@ -1,9 +1,8 @@
 /*Especificidad: 001*/ 
 header{
-    display: flex; /* Flexbox, ayuda a la adaptabilidad */
-    justify-content: space-between; /* Espacio entre los elementos */
-    align-items: center;  /* Centra verticalmente los elementos */
-    padding: 1em; /* Espaciado interno */
+    display: flex; 
+    justify-content: space-around; 
+    padding: 1em;
 }
 /*Especificidad: 001*/ 
 nav{
